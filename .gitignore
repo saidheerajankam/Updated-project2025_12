@@ -1,7 +1,13 @@
-target/
+# Node dependencies
 node_modules/
-.idea/
-.vscode/
-*.log
-.metadata/
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+
+# Environment files
+.env
+
+# OS files
 .DS_Store
+Thumbs.db
